@@ -1,5 +1,12 @@
 function minDate(dates) {
   //write you code here
+	let minDate=dates[0];
+	dates.forEach((element)=>{
+		if(element<minDate){
+             minDate=element;
+		}
+	})
+	return minDate;
 }
 
 // Do not change the code
